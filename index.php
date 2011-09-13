@@ -59,7 +59,7 @@ if($logged_in) {
     // Get school list
     echo '<div id="login">';
     echo '<p><strong>You are not logged in.</strong><br />Please select your school below:</p>';
-    echo '<ul id="schoollist">';
+    echo '<ul id="schoollist" style="list-style:none;">';
     $sql = "SELECT * FROM school ORDER BY name ASC";
     $res = $db->arrayQuery($sql);
     if(sizeof($res)) {

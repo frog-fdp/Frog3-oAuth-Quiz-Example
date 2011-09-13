@@ -1,5 +1,4 @@
 <?php
-
 /**
  * 
  * This file clears our all sqlite db, and recreates them.
@@ -11,7 +10,6 @@
  * just ignore the warnings if the table does/doesnt exist.
  * 
  */
-
 require_once('include.php');
 
 function insertQuestion($db, $n, $q, $p, $a) {
@@ -66,5 +64,4 @@ insertQuestion($db, 8, 'The sydney ..... house', 'operahouse.jpg', '*Opera|Beach
 insertQuestion($db, 9, 'Where is this?', 'pyramid.jpg', 'Cardiff|*Egypt|Weston-super-mare|Edinburgh');
 insertQuestion($db, 10, 'Mount Rushmore, but who are they?', 'rushmore.jpg', 'The Beatles|The Rolling Stones|*American Presidents');
 
-
-
+echo 'Completed OK';

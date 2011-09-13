@@ -78,6 +78,19 @@ echo '<tr><td><a href="index.php">Cancel</a></td><td><input type="submit" value=
 echo '</table>';
 
 ?>
-      </body>
+
+  <h2>How do I add my School?</h2>
+
+  <p>You need to be an administrator on your Frog server to add your school to
+     the Quiz. Login to the toolkit, and click into the &quot;FDP&quot; section
+     of the toolkit. Click the &quot;oAuth&quot; button. You will need to add a
+     new &quot;Consumer&quot; for this application, so fill in a name (like
+     Awesome Inter School Quiz!) and click add.</p>
+  <p>This has created the application's account on Frog, click 'show auth' next to it
+     in the list to display its public and private keys -- these are the
+     consumer key and consumer secret asked for above. Fill in the above form
+     and submit it to add your school.</p>
+
+</body>
 </html>
       
