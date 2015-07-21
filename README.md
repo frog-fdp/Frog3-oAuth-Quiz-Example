@@ -1,8 +1,12 @@
-oAuth Demo App
+Archived Repo
+=============
+This is an archived project and is no longer supported or updated by Frog. Please do not file issues or pull-requests against this repo. If you wish to continue to develop this code yourself, we recommend you fork it.
+
+Frog3 oAuth Demo App
 ==============
 
 This is a quick dev hack together of a working PHP application that uses
-oAuth. It is *not for production* as it is not secured in any way, but it can be
+oAuth to authenticate with Frog3. It is *not for production* as it is not secured in any way, but it can be
 used as a learning tool running locally.
 
 Installation
